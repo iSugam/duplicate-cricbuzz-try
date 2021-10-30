@@ -1,0 +1,231 @@
+@media only screen and (min-width: 800px) {
+    .mobile-hide{
+     display: none;
+    } 
+
+    body{
+        margin-top:100px;
+        margin-left: 20%;
+        background-color: #E3E6E3;
+    }
+    .container-desktop{
+        width: 80%;
+        background-color: #009270; 
+        cursor: pointer;
+        position: relative;
+    }
+
+    
+     .nav-items-desk li{
+        display: inline-block;
+        margin-left: 5px;
+        color: #fff;
+    }
+
+    .dropbtn {
+     background-color: transparent;
+        color: white;
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+      }
+     
+      
+      /* position the dropdown content */
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      /* Dropdown Content */
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 260px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      /* Contents of dropdown */
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      .dropdown-content .dropdown-small{ 
+        color: white;
+        padding: 15px;
+        min-width: 200px;
+        font-size: 16px;
+        border: none;
+        z-index: 1;
+      }
+
+      .table-drop{
+          padding-left: 70px;
+      }
+
+      /* DrpDown Hover */
+      .dropdown-content a:hover {
+          background-color: #ddd;
+        }
+      
+      .dropdown:hover .dropdown-content {
+          display: block;
+        }
+      
+      
+      .dropdown:hover .dropbtn {
+          background-color: #028062;
+    }
+
+    /* Logo Button */
+    .container-desktop button{
+        padding: 1.2rem 1rem;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+
+    /* Search Bar */
+    .search-bar{
+        display: none;
+        width: 30%;
+        height: 2rem;
+        text-align: left;
+        border-radius: 1rem;
+        background-color: rgb(70, 73, 73);
+        color: #fff;
+        font-size: 16px;
+        opacity: .5;
+    }
+
+    /* For Icons */
+    .icons{
+        margin-left: 6px;
+        color: white;
+    }
+
+    .container-desktop-two{
+        cursor: pointer;
+        margin-top: -16px;
+        line-height: 2.5;
+        width: 80%;
+        background-color: #4a4a4a;
+    }
+    .All{
+        margin-left: 54%;
+        margin-top: -3.5em;
+        color: white;
+        position: absolute;
+       
+    }
+
+    /* Slider Animation with JQuery */
+    .all-Slider{
+        display: none;
+        grid-template-columns: 33% 33% 33%;
+        margin-left: 40px;
+       
+    }
+
+    .all-Slider button{
+        border-radius: 20px;
+        margin-right: 20px;
+        width:5rem;
+    }
+
+    .all-Slider h3{
+        color: #00deaa;
+    }
+
+    .slider-list{
+        color: white;
+        margin-left: -40px;
+        margin-top: -15px;
+    }
+    .list-heading{
+        font-size: 10px;
+    }
+    .list-middle{
+        font-size: 18px;
+    }
+    .list-last{
+        font-size: 12px;
+    }
+
+    /* Featured Section */
+    .featured{
+        margin-top: -10px;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        width: 80%;
+        background-color: white;
+    }
+
+    .featured-matches{
+        margin-left: 20px;
+       
+    }
+    .featured-matches h3{
+        color: #009270;
+    }
+    .featured-matches p{
+        color: #a36501;
+    }
+
+    .matches-live{
+        margin-top: 63px;
+    }
+    .preview{
+       
+        margin-top: 5px;
+        width: 80%;
+        display: grid;
+        grid-template-columns: 20% 70%;
+        background-color: white;
+    }
+    .preview h2{
+        margin-left: 10px;
+    }
+
+    .links-preview{
+        margin-top: 30px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .links-preview a{
+        margin-left: 20px;
+        color: blue;
+    }
+    
+
+    .final-section{
+        text-align: center;
+        margin-top: 5px;
+        background-color: white;
+        width: 80%;
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+    }
+
+    .final-section > .final-contents:nth-child(-n+2){
+        text-align: left;   
+        margin-left: 20px;
+        
+        border-right: solid #E3E6E3 5px;
+    }
+   
+  
+    .final-contents img{
+        text-align: left;
+        width: 80%;
+  
+    }
+    .final-contents p{
+        text-align: left;
+    }
+}

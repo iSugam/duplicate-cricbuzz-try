@@ -1,0 +1,287 @@
+
+/* For Mobile Only */
+@media only screen and (max-width: 800px){
+
+    .desktop-hide{
+        display: none;
+    }
+    /* Body */
+    body{
+        background-color: rgb(248, 248, 246);
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    a{
+        text-decoration: none;
+    }
+
+    /* First Section */
+    .section-One{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-bottom: -40px;
+        overflow: hidden;
+        background-color: #4E585F;
+        
+       
+    }
+    
+    .container{
+        text-align: left;
+        margin-left: 20px;
+    }
+    .containerTwo{
+        text-align: right ;
+        margin-right: 10px;
+    }
+
+
+    /* Navbar Menu Or Ul */
+    ul {
+        margin-top: 0;
+        padding: 1em 0 1em 0;
+      }
+
+    /* List Item */
+    li{
+      display: inline ;
+      margin: 5px;
+      color: #fff;
+    }
+
+    /* First Logo */
+    .logo{
+      font-size: 1.5em;
+    }
+
+      /* Account Logo */
+    .account{
+      color:#fff;
+      font-size: 1.45em; 
+    }
+  
+    #account{
+      color:#fff;
+    }
+  
+    /* Menu Items */
+    #menu{
+      color: black;
+    }
+
+    .menuItem{
+      margin-top: 0;
+      border-radius: 5px;
+      padding: .3em;
+      background-color: rgb(250, 250, 250);
+    }
+
+  
+    /* Advertisement*/
+    .advert{
+        margin-bottom: -20px;
+        text-align: center;
+    }
+
+    .ad{
+        padding: .5em 0 .5em 0;
+        background-color: rgb(36, 37, 37);
+        color: cornsilk;
+    }
+
+    /* All Contents */
+    .content{
+      background-color: #335A7B;
+      padding-left: 1em;
+      color: cornsilk;
+    }
+
+   
+
+    /* Score Board */
+    .score-board{
+        margin-left: 15px;
+        
+    }
+   .score-board h3{
+        color: #3e5e85;
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    .score-board span{
+        font-family: "Arial";
+        padding-bottom: 10px;
+        font-size: 18px;
+        line-height: 22px;
+        box-sizing: border-box;
+        font-weight: 100;
+    }
+    /* Winner */
+    .winner{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        color: #4a90e2;
+        font-weight: 600;
+    }
+    
+    /* More Matches Button */
+    .more-matches{
+        color: #c7343c;
+        border: black solid 1px;
+        border-radius: 5px;
+        background: transparent;
+        margin: 2px 0 0 15px;
+        padding: .6em;
+        font-size: 16px;
+    }
+    /* More Matches Icon */
+    .more-matches i{
+        color: black;
+        margin-left: 15px;
+    }
+
+    /* Cricket Videos */
+    .videos-stories{
+        background-color: #335A7B;
+        color: cornsilk;
+    }
+
+    .videos-stories .cricketVideos{
+        padding: 8px 0 8px 0;
+        margin-left: 15px;
+    }
+
+    /* Cricket Videos Table and rows */
+    .videos{
+        width:100px; 
+        height:60px;
+        cursor: pointer;
+        margin-bottom: 15px;
+        margin-right: 15px;
+        margin-left: 10px;
+        background-image: url("https://cdn.pixabay.com/photo/2020/01/07/16/10/video-4748002_1280.png");
+        background-size: cover;
+    }
+    .video-title{
+        color: #113D59;
+        margin-bottom: 35px;
+    }
+
+    /* All Top Stories */
+    .stories{
+        background-color: #335A7B;
+        color: cornsilk;
+    }
+    .stories .topStories{
+        padding: 8px 0 8px 0;
+        margin-left: 15px;
+
+    }
+
+    .stories-divs{
+        display: grid;
+        grid-template-columns: 30% 50%;
+        width: 100%;
+        margin-left: 25px;
+        cursor: pointer;
+    }
+    
+
+    .stories-content{
+        width: 100px;
+        height: 60px;
+        background-image: url("https://post.healthline.com/wp-content/uploads/2020/09/lions-mane-mushroom-732x549-thumbnail.jpg");
+        background-size: cover;
+       
+    }
+    .stories-list{
+      margin-left: 40px;
+      text-align: left;
+      display: list-item;
+      color: #2971b5;
+      cursor: pointer;
+    }
+    .paragraph-stories{
+      color: #113D59;
+      font-family: inherit;
+      margin-top: -5px;
+     
+    }
+    .h4-stories{
+      color: #113d59;
+      margin-top: -4px;
+  }
+
+/* Second Section */
+  .section-two{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 10px;
+    overflow: hidden;
+    background-color: #4E585F;
+  }
+
+   /* Menu Table and rows */
+  .menu-section-two{
+      text-align: right;
+  }
+
+  #top{
+    margin-right: 15px;
+  }
+
+  .topItem{
+      color: black;
+      background-color: rgb(250, 250, 250);
+      padding: .3rem;
+      border-radius: 5px;
+     
+  }
+  
+ .menu-table{
+     color: rgb(255, 255, 255);
+  
+        border-collapse: separate;
+        border-spacing: 0 1em;
+        padding-left:  20px;
+        width: 28rem;
+  
+ }
+ 
+ .menu-table-rows{
+     padding-bottom: 20px;
+     margin-top: 20px;
+     
+ }
+ .menu-table-mobile{
+     padding-left: 200px;
+  
+ }
+
+ /* Apps and Media */
+ .apps-medias{
+     font-size: 25px;
+     font-family: Arial, Helvetica, sans-serif;
+    
+ }
+ .social-channels{
+     text-align: left;
+ }
+
+ /* Informations */
+ .info{
+     margin-top: 1rem;
+    width: 30rem;
+     color: blanchedalmond;
+ }
+ .info tr td{
+    
+     padding-left: 1em;
+ }
+
+ footer{
+     padding: -20px;
+     margin-left: 30px;
+ }
+}
