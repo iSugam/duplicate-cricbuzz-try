@@ -4,15 +4,22 @@
     } 
 
     body{
-        margin-top:100px;
-        margin-left: 20%;
+        margin: 0;
+        padding: 0;
         background-color: #E3E6E3;
     }
+    
+    section {
+        margin: auto;
+    }
+    
     .container-desktop{
         width: 80%;
         background-color: #009270; 
         cursor: pointer;
         position: relative;
+        margin: auto;
+        margin-top: 100px;
     }
 
     
@@ -111,6 +118,7 @@
 
     .container-desktop-two{
         cursor: pointer;
+        margin: auto;
         margin-top: -16px;
         line-height: 2.5;
         width: 80%;
